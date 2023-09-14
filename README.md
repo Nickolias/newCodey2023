@@ -1,3 +1,3 @@
-# newCodey2023
- nick for presdent
-Robot code
+# NEW CODEY 2023 ROBOT CODE
+
+FRC SLICE
