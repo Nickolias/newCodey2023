@@ -11,7 +11,7 @@ import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class DriveTrain extends SubsystemBase {
-  /** Creates a new DriveTrain. */
+  /** Creates the a new DriveTrain. */
   private CANSparkMax motor0;
   private CANSparkMax motor1;
   private CANSparkMax motor2;
