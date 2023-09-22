@@ -1,3 +1,3 @@
-# NEW CODEY 2023 ROBOT CODE
+# Wyning on the rainbow
 
 FRC SLICE
