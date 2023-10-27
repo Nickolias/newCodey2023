@@ -19,10 +19,10 @@ public class DriveTrain extends SubsystemBase {
   DifferentialDrive pancakeWaffleGyroBudaBudaBuh;
   /** Creates a new DriveTrain. */
   public DriveTrain() {
-    motorBL = new CANSparkMax(0, MotorType.kBrushless);
-    motorBR = new CANSparkMax(0, MotorType.kBrushless);
-    motorFL = new CANSparkMax(0, MotorType.kBrushless);
-    motorFR = new CANSparkMax(0, MotorType.kBrushless);
+    motorBL = new CANSparkMax(16, MotorType.kBrushless);
+    motorBR = new CANSparkMax(14, MotorType.kBrushless);
+    motorFL = new CANSparkMax(11, MotorType.kBrushless);
+    motorFR = new CANSparkMax(17, MotorType.kBrushless);
     motorControlL = new MotorControllerGroup(motorBL,motorFL);
     motorControlR = new MotorControllerGroup(motorBR,motorFR);
     pancakeWaffleGyroBudaBudaBuh = new DifferentialDrive(motorControlL, motorControlR);
