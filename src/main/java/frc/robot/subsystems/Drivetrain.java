@@ -19,10 +19,10 @@ public class Drivetrain extends SubsystemBase {
 
   /** Creates a new drivetrain. */
   public Drivetrain() {
-     motorBL = new CANSparkMax(16, MotorType.kBrushless);
-     motorBR = new CANSparkMax(14, MotorType.kBrushless);
-     motorTL = new CANSparkMax(11, MotorType.kBrushless);
-     motorTR = new CANSparkMax(17, MotorType.kBrushless);
+     motorBL = new CANSparkMax(15, MotorType.kBrushed);
+     motorBR = new CANSparkMax(18, MotorType.kBrushed);
+     motorTL = new CANSparkMax(16, MotorType.kBrushed);
+     motorTR = new CANSparkMax(17, MotorType.kBrushed);
 
       leftM = new MotorControllerGroup(motorBL, motorTL);
       rightM = new MotorControllerGroup(motorBR, motorTR);
